@@ -1,13 +1,10 @@
 // code
 let number1 = Math.floor(Math.random() * 100)
 
-function randomNumbers (number) {
-    if(number % 2 === 0) {
-        console.log(`${number} :Это четное число`);
+    if(number1 % 2 === 0) {
+        console.log(`${number1} :Это четное число`);
     } else {
-        console.log(`${number} :это не четное число`)
+        console.log(`${number1} :это не четное число`)
     }
-}
 
-randomNumbers(number1)
 
